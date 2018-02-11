@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline: 0 none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, article, aside,
+section, header,
+footer {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.material-icons {
+    position: relative;
+    top: 3px;
+}
+
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #14459e;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+
+}
+
+nav .item {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav .item:hover  {
+    background: #14459e;
+}
+
+nav .item:hover a  {
+    color: #fff;
+}
+
+nav .item:hover a i  {
+    color: #fff;
+}
+
+nav .login {
+    background: #14459e;
+}
+
+
+
+nav .item.login a {
+    color: white;
+}
+
+
+
+nav .item.login a i {
+    color: white;
+}
+
+nav .item a {
+    text-decoration: none;
+    color: #666;
+    display: block;
+}
+
+nav .item a i {
+    color: #14459e;
+}
+
+.after-box {
+    clear: both;
+}
+
+.head {
+    width: 100%;
+}
+
+.head > * {
+    float: left;
+}
+
+.head .logo {
+    background-image: url(../images/logo.jpg);
+    background-size: 100%;
+    min-height: 100px;
+    width: 300px;
+}
+
+.head .phone {
+    padding-top: 20px;
+    color: #14459e;
+}
+
+.head .phone span {
+    display: block;
+}
+
+.head .search {
+    width: 316px;
+    padding-top: 30px;
+
+}
+
+.head .search .input-container {
+    position: relative;
+}
+
+.head .search .input-container button {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    padding: 9px;
+
+}
+
+.head .search .input-container input {
+    border: 1px solid #14459e;
+    padding: 10px 50px 10px 15px;
+    line-height: 22px;
+    font-size: 15px;
+    width: 100%;
+    color: #666666;
+}
+
+.head .cart {
+    width: 216px;
+    padding-top: 30px;
+
+}
+
+.head .cart span {
+    padding: 10px 15px;
+    float: right;
+    background: #14459e;
+    color: white;
+}
+
+.head .cart i {
+    float: right;
+}
+
+header > form {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #14459e;
+    text-align: center;
+}
+
+header form select {
+    font-size: 15px;
+    color: #14459e;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+header form select:hover,
+header form select:focus,
+header form select:active {
+    color: #1857df;
+}
+
+section.slide {
+    box-shadow: 1px 10px 17px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+section.slide article header {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+section.slide article header img {
+    width: 100%;
+}
+
+section.slide article header span.text {
+    position: static;
+    color: #14459e;
+    border-top: 2px solid #14459e;
+    border-bottom: 2px solid #14459e;
+    text-align: center;
+    background: white;
+}
+
+section.slide article header span.toolbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section.columns {
+    width: 100%;
+}
+
+section.columns h1 {
+    color: #14459e;
+    text-align: center;
+	margin:20px 0;
+}
+
+section article.column {
+    box-shadow: 1px 6px 15px -3px rgba(0,0,0,0.5); 
+}
+
+section article.column header h4 {
+   background-color: blue;
+   text-align: center;
+   color: white;
+}
+
+section article.column header h4 a {
+    color: white; 
+    text-decoration: none;
+}
+
+section article.column p {
+    padding:10px;
+}
+
+section article.column p span {
+    font-weight: bold;
+    display: block;
+    margin-bottom:10px;
+}
+
+.img-responsive {
+    width: 100%;
+}
